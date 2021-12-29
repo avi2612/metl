@@ -6,7 +6,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import com.kkhindigyan.org.model.Account;
 import com.kkhindigyan.org.service.AccountService;
 import com.kkhindigyan.org.service.impl.AccountServiceImpl;
-
+/**
+* @author Avinash Singh
+* spring Application client Program
+*/
 public class ClientTest {
 
 	public static void main(String[] args) {
