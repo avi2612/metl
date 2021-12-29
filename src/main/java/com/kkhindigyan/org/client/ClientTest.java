@@ -14,8 +14,8 @@ public class ClientTest {
 		AbstractApplicationContext ctx = null;
 		try {
 			ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
-			AccountService accountService = ctx.getBean("accountService", AccountServiceImpl.class);
-			accountService.updateAccountBalance(new Account("6770865400", "Money tranfer"), 5000L);
+			AccountService accountServiceObj = ctx.getBean("accountService", AccountServiceImpl.class);
+			accountServiceObj.updateAccountBalance(new Account("6770865400", "Money tranfer"), 5000L);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}finally {
