@@ -16,7 +16,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
-			<artifactId>spring-aspects</artifactId>
+			<artifactId>spring-aspects11</artifactId>
 			<version>${org.spring.aop.version}</version>
 		</dependency>
 

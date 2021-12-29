@@ -9,7 +9,7 @@
     http://www.springframework.org/schema/context/spring-context.xsd
     http://www.springframework.org/schema/aop
     http://www.springframework.org/schema/aop/spring-aop.xsd">
-
+<!-- Spring Application Configuration File -->
 	<aop:config proxy-target-class="true">
 		<aop:pointcut
 			expression="execution(* com.kkhindigyan.org.service.impl.AccountServiceImpl.*(..))"
