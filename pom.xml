@@ -4,7 +4,7 @@
   <artifactId>AroundAdviceExample</artifactId>
   <version>0.0.1-SNAPSHOT</version>
    <properties>
-		<org.springframework.version>5.2.13.RELEASE</org.springframework.version>
+		<org.springframework.version>5.2.13.ppppppppppppppRELEASE</org.springframework.version>
 		<org.spring.aop.version>5.2.13.13.12.1.2.3.RELEASE</org.spring.aop.version>
 	</properties>
 
@@ -15,7 +15,7 @@
 			<version>${org.springframework.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework</groupId>
+			<groupId>org.springframeworkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</groupId>
 			<artifactId>spring-aspects11</artifactId>
 			<version>${org.spring.aop.version}</version>
 		</dependency>
